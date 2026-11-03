@@ -146,7 +146,7 @@ public final class HorrorDirector {
                 float yaw = (float) (MathHelper.atan2(player.getZ() - (bz + 0.5), player.getX() - (bx + 0.5))
                         * 180.0 / Math.PI) - 90.0f;
                 watcher.refreshPositionAndAngles(bx + 0.5, feet.getY(), bz + 0.5, yaw, 0.0f);
-                if (!world.doesNotCollide(watcher)) {
+                if (!world.isSpaceEmpty(watcher)) {
                     continue;
                 }
                 watcher.setTarget(player);
