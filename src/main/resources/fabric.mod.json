@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hollowdread",
+  "version": "${version}",
+  "name": "Hollow Dread",
+  "description": "Тьма смотрит в ответ. Лёгкий хоррор-мод: Наблюдатель, который преследует тебя в темноте, пока ты не посмотришь на него.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.hollowdread.HollowDread"],
+    "client": ["dev.hollowdread.client.HollowDreadClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
