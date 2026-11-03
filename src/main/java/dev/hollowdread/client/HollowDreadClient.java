@@ -3,8 +3,8 @@ package dev.hollowdread.client;
 import dev.hollowdread.HollowDread;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
-import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.fabricmc.api.Environment; 
+import net.fabricmc.fabric.api.client.render.EntityRendererRegistry;
 
 @Environment(EnvType.CLIENT)
 public class HollowDreadClient implements ClientModInitializer {
